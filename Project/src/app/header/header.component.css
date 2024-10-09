@@ -43,10 +43,20 @@ header{
     color:rgb(122, 0, 0);
 }
 
+.active-link {
+    border-bottom: 2px solid rgb(220, 1, 1);
+}
+
 .header_btn{
     background-color: rgb(220, 1, 1);
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header_btn:hover{
+    background-color: rgb(193, 0, 0);
 }
