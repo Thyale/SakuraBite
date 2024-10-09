@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100vw;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.header_titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.header_titulo h1{
+    color: rgb(220, 1, 1);
+    font-family: "Fondamento", cursive;
+}
+
+.header_titulo p{
+    font-size: 30px;
+}
+
+.header_links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header_links a:hover{
+    color:rgb(122, 0, 0);
+}
+
+.header_btn{
+    background-color: rgb(220, 1, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
