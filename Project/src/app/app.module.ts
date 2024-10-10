@@ -9,6 +9,7 @@ import { HomeLandingPageComponent } from './Landing-Page/home-landing-page/home-
 import { HomeCardapioComponent } from './Cardapio/home-cardapio/home-cardapio.component';
 import { ApresentacaoLandingPageComponent } from './Landing-Page/apresentacao-landing-page/apresentacao-landing-page.component';
 import { SobreNosLandingPageComponent } from './Landing-Page/sobre-nos-landing-page/sobre-nos-landing-page.component';
+import { PopularesLandingPageComponent } from './Landing-Page/populares-landing-page/populares-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SobreNosLandingPageComponent } from './Landing-Page/sobre-nos-landing-p
     HomeLandingPageComponent,
     HomeCardapioComponent,
     ApresentacaoLandingPageComponent,
-    SobreNosLandingPageComponent
+    SobreNosLandingPageComponent,
+    PopularesLandingPageComponent
   ],
   imports: [
     BrowserModule,
