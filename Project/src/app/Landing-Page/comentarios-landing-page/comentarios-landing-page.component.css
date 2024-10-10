@@ -1,3 +1,9 @@
+.bg-comentarios{
+    background-image: url(/bg-comentarios.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .Comentarios-landingPage{
     width: 90%;
     max-width: 1200px;
