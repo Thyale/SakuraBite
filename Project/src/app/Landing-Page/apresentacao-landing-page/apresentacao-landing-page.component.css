@@ -1,0 +1,66 @@
+.Apresentacao-LandingPage{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.Apresentacao-LandingPage__Texto{
+    width: 100%;
+    max-width: 500px;
+}
+
+.Apresentacao-LandingPage__Texto h1{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+}
+
+.Apresentacao-LandingPage__Texto p{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.Apresentacao-LandingPage__Texto button{
+    background-color: rgb(220, 1, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.348);
+    margin-top: 20px;
+}
+
+.Apresentacao-LandingPage__Texto button:hover{
+    background-color: rgb(193, 0, 0);
+}
+
+.Apresentacao-LandingPage__Img{
+    width: 90%;
+    max-width: 300px;
+}
+
+@media (max-width: 768px){
+    .Apresentacao-LandingPage{
+        flex-direction: column;
+        border-top: 1px solid rgba(0, 0, 0, 0.196);
+        padding-top: 20px;
+    }
+    
+    .Apresentacao-LandingPage__Texto button{
+        padding: 5px 10px;
+    }
+    
+    .Apresentacao-LandingPage__Img{
+        max-width: 200px;
+    }
+}

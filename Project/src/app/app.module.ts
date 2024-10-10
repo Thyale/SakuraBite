@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeLandingPageComponent } from './Landing-Page/home-landing-page/home-landing-page.component';
 import { HomeCardapioComponent } from './Cardapio/home-cardapio/home-cardapio.component';
+import { ApresentacaoLandingPageComponent } from './Landing-Page/apresentacao-landing-page/apresentacao-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeCardapioComponent } from './Cardapio/home-cardapio/home-cardapio.co
     HeaderComponent,
     FooterComponent,
     HomeLandingPageComponent,
-    HomeCardapioComponent
+    HomeCardapioComponent,
+    ApresentacaoLandingPageComponent
   ],
   imports: [
     BrowserModule,
