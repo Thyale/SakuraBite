@@ -1,0 +1,51 @@
+.SobreNos-LandingPage{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.SobreNos-LandingPage__Img{
+    width: 90%;
+    max-width: 400px;
+}
+
+.SobreNos-LandingPage__Texto{
+    width: 100%;
+    max-width: 400px;
+}
+
+.SobreNos-LandingPage__Texto__SobreNos{
+    color: rgb(220, 1, 1);
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+}
+
+.SobreNos-LandingPage__Texto h1{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.SobreNos-LandingPage__Texto__Subtitulo{
+    color: rgba(0, 0, 0, 0.597);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .SobreNos-LandingPage{
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    
+    .SobreNos-LandingPage__Img{
+        margin-top: 20px;
+    }
+
+}

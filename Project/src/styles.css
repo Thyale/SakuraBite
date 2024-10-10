@@ -6,11 +6,6 @@
 
 /*Tamnho de telas @media (max-width: 768px){}*/
 
-html{
-    width: 100vw;
-    height: 100vh;
-}
-
 *{
     margin: 0;
     padding: 0;
