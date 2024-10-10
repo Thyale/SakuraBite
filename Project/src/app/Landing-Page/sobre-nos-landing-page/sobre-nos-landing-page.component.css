@@ -1,3 +1,9 @@
+.bg-Img-SobreNos{
+    background-image: url(/bg-SobreNos2.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .SobreNos-LandingPage{
     width: 90%;
     max-width: 1200px;
