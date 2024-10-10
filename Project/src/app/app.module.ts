@@ -10,6 +10,7 @@ import { HomeCardapioComponent } from './Cardapio/home-cardapio/home-cardapio.co
 import { ApresentacaoLandingPageComponent } from './Landing-Page/apresentacao-landing-page/apresentacao-landing-page.component';
 import { SobreNosLandingPageComponent } from './Landing-Page/sobre-nos-landing-page/sobre-nos-landing-page.component';
 import { PopularesLandingPageComponent } from './Landing-Page/populares-landing-page/populares-landing-page.component';
+import { ComentariosLandingPageComponent } from './Landing-Page/comentarios-landing-page/comentarios-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PopularesLandingPageComponent } from './Landing-Page/populares-landing-
     HomeCardapioComponent,
     ApresentacaoLandingPageComponent,
     SobreNosLandingPageComponent,
-    PopularesLandingPageComponent
+    PopularesLandingPageComponent,
+    ComentariosLandingPageComponent
   ],
   imports: [
     BrowserModule,

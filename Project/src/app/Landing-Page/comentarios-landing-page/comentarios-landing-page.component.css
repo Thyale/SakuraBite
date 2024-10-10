@@ -1,0 +1,68 @@
+.Comentarios-landingPage{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    gap: 10px;
+}
+
+.Comentarios-landingPage__titulo{
+    font-family: "Koh Santepheap", serif;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.Comentarios-landingPage__Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Comentarios-landingPage__Container__Div{
+    margin-top: 2em;
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.207);
+}
+
+.Comentarios-landingPage__Container__Div h1{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Comentarios-landingPage__Container__Div p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.Comentarios-landingPage__Container__Div img{
+    width: 100%;
+    max-width: 70px;
+}
+
+.Comentarios-landingPage__Container__Div__Estrelas{
+    color: rgb(220, 1, 1);
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+@media (max-width: 768px){
+    .Comentarios-landingPage__Container{
+        gap: 20px;
+    }
+}
