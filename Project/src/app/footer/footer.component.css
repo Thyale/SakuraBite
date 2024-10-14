@@ -1,0 +1,71 @@
+footer{
+    margin-top: 2em;
+    padding: 20px;
+}
+
+.Footer_Links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.Footer_Links_Div h1{
+    font-family: "Koh Santepheap", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+ }
+
+.Footer_Links_Div ul{
+   list-style: none;
+   font-size: 14px;
+}
+
+.Footer_Links_Div li:hover{
+    color: rgb(185, 2, 2);
+    cursor: pointer;
+}
+ 
+
+.Footer_Icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.Footer_Icons_Titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.Footer_Icons_Titulo h1{
+    color: rgb(220, 1, 1);
+    font-family: "Fondamento", cursive;
+}
+
+.Footer_Icons_Titulo p{
+    font-size: 30px;
+}
+
+.Footer_Icons_RedesSociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.Footer_Icons_RedesSociais i{
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px 5px;
+    cursor: pointer;
+}
