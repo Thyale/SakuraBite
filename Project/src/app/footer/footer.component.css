@@ -69,3 +69,12 @@ footer{
     padding: 5px 5px;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    
+    .Footer_Links{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}
