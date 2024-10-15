@@ -1,0 +1,136 @@
+.PratosSection{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 3em;
+}
+
+.PratosSection__ApresentacaoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.PratosSection__ApresentacaoContainer_Div h1{
+    font-family: "Koh Santepheap", serif;
+    font-size: 25px;
+}
+
+.PratosSection__ApresentacaoContainer_Div p{
+    font-size: 14px ;
+    color: rgba(0, 0, 0, 0.657);
+}
+
+.PratosSection__ApresentacaoContainer i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.PratosSection__ApresentacaoContainer i:hover{
+    color: rgb(198, 0, 0);
+}
+
+.PratosSection__Container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.PratosSection__Container > h1{
+    font-family: "Koh Santepheap", serif;
+    font-size: 25px;
+    border-bottom: 1px solid rgba(198, 0, 0, 0.128);
+    padding-bottom: 5px;
+}
+
+.PratosSection__Container_ContainerPratos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.PratosSection__Container_ContainerPratos_Div{
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PratosSection__Container_ContainerPratos_Div button{
+    background-color: rgb(198, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.PratosSection__Container_ContainerPratos_Div img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.PratosSection__Container_ContainerPratos_Div h1{
+    font-size: 25px;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.PratosSection__Container_ContainerPratos_Div_Descricao{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.PratosSection__Container_ContainerPratos_Div_Valor{
+    margin-top: 10px;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    color: rgb(220, 1, 1);
+    font-size: 25px;
+}
+
+.PratosSection__Container_ContainerSeta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.PratosSection__Container_Seta{
+    display: none;
+}
+
+@media (max-width: 968px){
+    .PratosSection__Container_ContainerPratos {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        gap: 20px;
+    }
+
+    .PratosSection__Container_ContainerPratos_Div {
+        flex: 0 0 400px;
+    }
+
+    .PratosSection__Container_Seta{
+        display: flex;
+        font-size: 25px;
+    }
+}
+

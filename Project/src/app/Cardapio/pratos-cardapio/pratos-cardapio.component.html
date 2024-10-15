@@ -1,0 +1,42 @@
+<section class="PratosSection">
+    <div class="PratosSection__ApresentacaoContainer">
+        <div class="PratosSection__ApresentacaoContainer_Div">
+            <h1>Cardapio Online</h1>
+            <p>Explore o melhor da culinária oriental, com uma seleção de pratos frescos e autênticos.</p>
+        </div>
+        <i class="fa fa-shopping-cart"></i>
+    </div>
+
+    <div class="PratosSection__Container">
+        <h1>Populares</h1>
+        <div class="PratosSection__Container_ContainerSeta">
+            <div class="PratosSection__Container_ContainerPratos">
+                <div class="PratosSection__Container_ContainerPratos_Div" *ngFor="let item of Populares">
+                    <img src={{item.Img}} alt="Imagem do prato">
+                    <h1>{{ item.Nome }}</h1>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ item.Description }}</p>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Valor">{{ item.Valor }}</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+            </div>
+            <p class="PratosSection__Container_Seta">></p>
+        </div>
+    </div>
+
+    <div class="PratosSection__Container">
+        <h1>Sushi & Sashimi</h1>
+        <div class="PratosSection__Container_ContainerSeta">
+            <div class="PratosSection__Container_ContainerPratos">
+                <div *ngFor="let pratos of Sushi" class="PratosSection__Container_ContainerPratos_Div">
+                    <img src={{pratos.Img}} alt="Imagem do prato">
+                    <h1>{{ pratos.Nome }}</h1>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ pratos.Description }}</p>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Valor">{{ pratos.Valor }}</p>
+                    <button>Adicionar ao carrinho</button>
+                </div>
+            </div>
+            <p class="PratosSection__Container_Seta">></p>
+        </div>
+    </div>
+
+</section>

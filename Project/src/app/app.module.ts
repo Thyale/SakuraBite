@@ -11,6 +11,7 @@ import { ApresentacaoLandingPageComponent } from './Landing-Page/apresentacao-la
 import { SobreNosLandingPageComponent } from './Landing-Page/sobre-nos-landing-page/sobre-nos-landing-page.component';
 import { PopularesLandingPageComponent } from './Landing-Page/populares-landing-page/populares-landing-page.component';
 import { ComentariosLandingPageComponent } from './Landing-Page/comentarios-landing-page/comentarios-landing-page.component';
+import { PratosCardapioComponent } from './Cardapio/pratos-cardapio/pratos-cardapio.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ComentariosLandingPageComponent } from './Landing-Page/comentarios-land
     ApresentacaoLandingPageComponent,
     SobreNosLandingPageComponent,
     PopularesLandingPageComponent,
-    ComentariosLandingPageComponent
+    ComentariosLandingPageComponent,
+    PratosCardapioComponent
   ],
   imports: [
     BrowserModule,
