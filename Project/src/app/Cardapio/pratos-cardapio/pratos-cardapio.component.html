@@ -4,7 +4,6 @@
             <h1>Cardapio Online</h1>
             <p>Explore o melhor da culinária oriental, com uma seleção de pratos frescos e autênticos.</p>
         </div>
-        <i class="fa fa-shopping-cart"></i>
     </div>
 
     <div class="PratosSection__Container">
@@ -16,7 +15,6 @@
                     <h1>{{ item.Nome }}</h1>
                     <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ item.Description }}</p>
                     <p class="PratosSection__Container_ContainerPratos_Div_Valor">{{ item.Valor }}</p>
-                    <button>Adicionar ao carrinho</button>
                 </div>
             </div>
             <p class="PratosSection__Container_Seta">></p>
@@ -32,7 +30,21 @@
                     <h1>{{ pratos.Nome }}</h1>
                     <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ pratos.Description }}</p>
                     <p class="PratosSection__Container_ContainerPratos_Div_Valor">{{ pratos.Valor }}</p>
-                    <button>Adicionar ao carrinho</button>
+                </div>
+            </div>
+            <p class="PratosSection__Container_Seta">></p>
+        </div>
+    </div>
+
+    <div class="PratosSection__Container">
+        <h1>Pratos Quentes</h1>
+        <div class="PratosSection__Container_ContainerSeta">
+            <div class="PratosSection__Container_ContainerPratos">
+                <div *ngFor="let Quentes of Quentes" class="PratosSection__Container_ContainerPratos_Div">
+                    <img src={{Quentes.Img}} alt="Imagem do prato">
+                    <h1>{{ Quentes.Nome }}</h1>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ Quentes.Description }}</p>
+                    <p class="PratosSection__Container_ContainerPratos_Div_Valor">{{ Quentes.Valor }}</p>
                 </div>
             </div>
             <p class="PratosSection__Container_Seta">></p>

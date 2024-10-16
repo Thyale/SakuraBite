@@ -9,13 +9,7 @@
 }
 
 .PratosSection__ApresentacaoContainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 2em;
-    flex-wrap: wrap;
-    gap: 20px;
 }
 
 .PratosSection__ApresentacaoContainer_Div h1{
@@ -28,15 +22,6 @@
     color: rgba(0, 0, 0, 0.657);
 }
 
-.PratosSection__ApresentacaoContainer i{
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.PratosSection__ApresentacaoContainer i:hover{
-    color: rgb(198, 0, 0);
-}
-
 .PratosSection__Container{
     display: flex;
     flex-direction: column;
@@ -46,8 +31,9 @@
 .PratosSection__Container > h1{
     font-family: "Koh Santepheap", serif;
     font-size: 25px;
-    border-bottom: 1px solid rgba(198, 0, 0, 0.128);
-    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .PratosSection__Container_ContainerPratos{
