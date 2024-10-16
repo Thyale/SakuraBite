@@ -10,7 +10,7 @@
         <h1>Populares</h1>
         <div class="PratosSection__Container_ContainerSeta">
             <div class="PratosSection__Container_ContainerPratos">
-                <div class="PratosSection__Container_ContainerPratos_Div" *ngFor="let item of Populares">
+                <div class="PratosSection__Container_ContainerPratos_Div" *ngFor="let item of Populares" data-aos="fade-up" data-aos-duration="1500">
                     <img src={{item.Img}} alt="Imagem do prato">
                     <h1>{{ item.Nome }}</h1>
                     <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ item.Description }}</p>
@@ -25,7 +25,7 @@
         <h1>Sushi & Sashimi</h1>
         <div class="PratosSection__Container_ContainerSeta">
             <div class="PratosSection__Container_ContainerPratos">
-                <div *ngFor="let pratos of Sushi" class="PratosSection__Container_ContainerPratos_Div">
+                <div *ngFor="let pratos of Sushi" class="PratosSection__Container_ContainerPratos_Div" data-aos="fade-up" data-aos-duration="1300">
                     <img src={{pratos.Img}} alt="Imagem do prato">
                     <h1>{{ pratos.Nome }}</h1>
                     <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ pratos.Description }}</p>
@@ -40,7 +40,7 @@
         <h1>Pratos Quentes</h1>
         <div class="PratosSection__Container_ContainerSeta">
             <div class="PratosSection__Container_ContainerPratos">
-                <div *ngFor="let Quentes of Quentes" class="PratosSection__Container_ContainerPratos_Div">
+                <div *ngFor="let Quentes of Quentes" class="PratosSection__Container_ContainerPratos_Div" data-aos="fade-up" data-aos-duration="1500">
                     <img src={{Quentes.Img}} alt="Imagem do prato">
                     <h1>{{ Quentes.Nome }}</h1>
                     <p class="PratosSection__Container_ContainerPratos_Div_Descricao">{{ Quentes.Description }}</p>
