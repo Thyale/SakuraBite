@@ -4,12 +4,12 @@ import { HomeLandingPageComponent } from './Landing-Page/home-landing-page/home-
 import { HomeCardapioComponent } from './Cardapio/home-cardapio/home-cardapio.component';
 
 const routes: Routes = [
-  {path: "", component: HomeLandingPageComponent},
-  {path: "cardapio", component: HomeCardapioComponent}
+  { path: "", component: HomeLandingPageComponent },
+  { path: "cardapio", component: HomeCardapioComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
